@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+ <html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -8,13 +8,13 @@
     <title>Document</title>
 </head>
 
-<body>
+<body class=" lg:mr-7 lg:ml-7 p-4">
 
-    <header class="sticky top-0 z-100 bg-[#FCFBF9]">
-        <nav class="flex justify-between items-center md:max-w-[980px] px-8 py-4">
-            <div class="flex gap-8">
+    <header class="sticky top-0 z-100 bg-[#FCFBF9] ">
+        <nav class="flex justify-between lg:items-center lg:max-w-[980px] h-full lg:px-8 lg:py-4">
+            <div class="flex gap-8 flex-row">
                 <img src="podia.jpg" width="120" height="120" alt="" />
-                <ul class="flex items-center gap-4">
+                <ul class="lg:flex lg:items-center lg:gap-4 hidden">
                     <li>
                         <button class="rounded-full md:px-4 md:py-3 hover:bg-[#F5EFEB] text-lg">
                             Website
@@ -42,7 +42,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="flex gap-4 -mr-[240px]">
+            <div class="flex gap-4 -mr-[140px]">
                 <button class="rounded-full px-4 py-3 text-lg hover:bg-[#F5EFEB]">
                     Login
                 </button>
@@ -54,175 +54,182 @@
     </header>
     <main>
 
-        <section>
-            <div>
-                <span>DIGITAL PRODUCTS </span>
-                <h1>Sell online courses, coaching sessions, webinars, workshops, ebooks, and anything you can think of
+        <section class=" p-24 flex lg:flex-row flex-col justify-center text-center ">
+            <div class="lg:h-full lg:w-[50%]">
+                <span class=" font-thin font-serif text-[#9c8881]">DIGITAL PRODUCTS </span>
+                <h1 class="  font-semibold  lg:text-6xl  text-3xl p-3">Sell online courses, coaching sessions, webinars, workshops,
+                    ebooks, and anything you can think of
                     on Podia </h1>
-                <p>Get everything you need in one place that you own. Podia takes care of hosting products, taking
+                <p class="p-3 font-light text-lg">Get everything you need in one place that you own. Podia takes care of
+                    hosting products, taking
                     payments, and getting products to your customers. And you always control your own work.</p>
-                <button>
+                <button class="bg-[#4b2aad] lg:rounded-full rounded-md lg:px-4 lg:py-3 hover:bg-[#201445] lg:text-lg text-white">
                     Get your free account
                 </button>
 
             </div>
-            <div>
+            <div class="lg:w-[50%] h-full">
                 <img src="https://images.ctfassets.net/19dvw6heztyg/3xU9z3jUaXTRdC0ii7hXVb/2ac68a4e2bab8ea98b76e001daf345af/digital_products-hero.png?w=1440&q=75"
                     alt="">
             </div>
-
-
-
-
         </section>
-        <section>
-            <h1> All you have to do is make the product. Podia takes care of the details for you. </h1>
-            <p> Podia lets you make your sales page, take payments, and give your customers access all in one place.
+        <section class=" flex justify-center items-center flex-col p-14 text-center ">
+            <h1 class="  font-serif text-4xl font-medium p-3"> All you have to do is make the product. Podia takes care
+                of the details for you. </h1>
+            <p class=" font-thin text-lg"> Podia lets you make your sales page, take payments, and give your customers
+                access all in one place.
                 Host and sell your products without needing to figure out a handful of new tools. </p>
         </section>
-        <section>
-            <div>
-                <img src="https://images.ctfassets.net/19dvw6heztyg/2eLlpnxsMYcXLafIxBMPQ/ded2d6d8c06d7d264c2b439532c4bdae/digital_products-icon-cart.svg?w=104&q=75"
+        <section class=" lg:grid lg:grid-cols-3 lg:p-20 gap-8 ">
+            <div class=" flex justify-center items-center flex-col text-center  h-full ">
+                <img class=" p-4  "
+                    src="https://images.ctfassets.net/19dvw6heztyg/2eLlpnxsMYcXLafIxBMPQ/ded2d6d8c06d7d264c2b439532c4bdae/digital_products-icon-cart.svg?w=104&q=75"
                     alt="">
-                <h1>
+                <h1 class=" text-xl font-serif p-3">
                     Checkout and sales are handled for you
                 </h1>
-                <p>
-                    You don’t have to figure out a bunch of tools or website embeds. Just connect a payment provider and
+                <p class="  text-lg font-thin p-3">
+                    You don't have to figure out a bunch of tools or website embeds. Just connect a payment provider and
                     your Podia site takes care of payments for you.
                 </p>
             </div>
-            <div>
-                <img src="https://images.ctfassets.net/19dvw6heztyg/7KaLncxHOYXhTDKNV5KWlR/3abf9e8ba08cd3d009b2aae847664729/digital_products-icon-login.svg?w=104&q=75"
+            <div class=" h-full  flex justify-center items-center flex-col text-center">
+                <img class=" p-4  "
+                    src="https://images.ctfassets.net/19dvw6heztyg/7KaLncxHOYXhTDKNV5KWlR/3abf9e8ba08cd3d009b2aae847664729/digital_products-icon-login.svg?w=104&q=75"
                     alt="">
-                <h1>
+                <h1 class=" text-xl font-serif p-3">
                     Your customers log in, and your products are there for them
                 </h1>
-                <p>
+                <p class="  text-lg font-thin p-3">
                     Your Podia site handles access to products for you. Everything is in one place. When your customers
-                    buy a product, they get a log in. After that, they can see all the products they’ve bought from you.
+                    buy a product, they get a log in. After that, they can see all the products they've bought from you.
                 </p>
             </div>
-            <div>
-                <img src=" https://images.ctfassets.net/19dvw6heztyg/7xrDN3tUSAanf0BRhvcvnA/a5418d5067e60f2c2b93c13c366be9da/digital_products-icon-upload.svg?w=104&q=75"
+            <div class=" flex justify-center items-center flex-col text-center h-full ">
+                <img class=" p-4  "
+                    src=" https://images.ctfassets.net/19dvw6heztyg/7xrDN3tUSAanf0BRhvcvnA/a5418d5067e60f2c2b93c13c366be9da/digital_products-icon-upload.svg?w=104&q=75"
                     alt="">
-                <h1>
+                <h1 class=" text-xl font-serif p-3">
                     Upload your product. Make your sales page. Done.
                 </h1>
-                <p>You could sell a digital product by this afternoon. Podia handles hosting, sales pages, checkout, and
+                <p class="  text-lg font-thin p-3">You could sell a digital product by this afternoon. Podia handles
+                    hosting, sales pages, checkout, and
                     delivery. All you need is something to sell.
 
                 </p>
             </div>
         </section>
-        <section>
-            <h1>What kinds of products can you sell with Podia?</h1>
-            <p> Podia gives you the flexibility to sell whatever you want. That means you have more ways to grow your
+        <section class=" flex justify-center items-center flex-col p-14 text-center ">
+            <h1 class="  font-serif text-4xl font-medium p-3">What kinds of products can you sell with Podia?</h1>
+            <p class=" font-thin text-lg"> Podia gives you the flexibility to sell whatever you want. That means you
+                have more ways to grow your
                 creator business.</p>
         </section>
-        <section>
-            <div>
-                <span> Online courses</span>
-                <h1> Beautiful online courses you can build in moments</h1>
-                <p>Make a beautiful online course for your customers. Podia hosts your course. That means all the
+        <section class="p-32 flex lg:flex-row flex-col ">
+            <div class="h-full lg:w-[50%]">
+                <span class=" font-thin font-serif text-[#9c8881]"> Online courses</span>
+                <h1 class="  font-semibold  text-6xl p-3"> Beautiful online courses you can build in moments</h1>
+                <p class="p-3 font-light text-lg">Make a beautiful online course for your customers. Podia hosts your
+                    course. That means all the
                     lessons, files, and videos you want handled for you.</p>
-                <a href="navigation.link"> Learn more about courses → </a>
+                <a class="text-[#4b2aad]  p-4  hover:text-[#201445] font-serif text-base" href="navigation.link"> Learn
+                    more about courses → </a>
 
             </div>
-            <div>
+            <div class="lg:w-[50%]  flex items-center justify-center lg:py-10">
                 <img src="https://images.ctfassets.net/19dvw6heztyg/6Upd6xYyofNMlYawCQm7OA/1c2d7c3b665bb2dda455db43da72762a/digital_products-courses.png?w=1440&q=75"
                     alt="">
             </div>
         </section>
-        <section>
-            <img src=" https://images.ctfassets.net/19dvw6heztyg/4B48mQDjCWqC423nTmQbmd/e6671b91268f0fcd0e1bfcb792f20f1d/Stars__1_.png?w=360&q=75"
+        <section class=" flex justify-center items-center  text-center p-14 flex-col">
+            <img  class=" p-5" src=" https://images.ctfassets.net/19dvw6heztyg/4B48mQDjCWqC423nTmQbmd/e6671b91268f0fcd0e1bfcb792f20f1d/Stars__1_.png?w=360&q=75"
                 alt="">
-            <h1>
+            <h1 class=" text-xl font-serif ">
                 I've wanted to offer e-courses for a while but always felt overwhelmed with how to set it up. Podia has
                 made it super easy.
             </h1>
-            <span> — Joy Cho, Oh Joy! Academy </span>
+            <span class=" text-lg text-slate-700 p-3 "> — Joy Cho, Oh Joy! Academy </span>
         </section>
-        <section>
-            <div>
-                <span> Digital downloads</span>
+        <section class=" p-32 flex lg:flex-row flex-col">
+            <div class="h-full lg:w-[50%]">
+                <span class=" font-thin font-serif text-[#9c8881]"> Digital downloads</span>
 
-                <h1>Ebooks, templates, and any file type you can think of</h1>
-                <p> Have an ebook to sell? Templates you love? Podia makes it easy to spin up a sales page and sell
+                <h1 class="  font-semibold  text-6xl p-3">Ebooks, templates, and any file type you can think of</h1>
+                <p  class="p-3 font-light text-lg"> Have an ebook to sell? Templates you love? Podia makes it easy to spin up a sales page and sell
                     ebooks, templates, audio files, video files, spreadsheets, and any other file type.</p>
 
-                <a href="navigation.link">Learn more about downloads → </a>
+                <a class="text-[#4b2aad]  p-4  hover:text-[#201445] font-serif text-base" href="navigation.link">Learn more about downloads → </a>
 
             </div>
-            <div>
+            <div class=" flex justify-center items-center flex-col text-center h-full ">
                 <img src=" https://images.ctfassets.net/19dvw6heztyg/7p6JX5lRphfQnMNrsU1OuP/1c5e24ecb26ce3440fc87034242f0a27/digital_products-downloads.png?w=1440&q=75"
                     alt="">
             </div>
         </section>
-        <section>
-            <img src=" https://images.ctfassets.net/19dvw6heztyg/4B48mQDjCWqC423nTmQbmd/e6671b91268f0fcd0e1bfcb792f20f1d/Stars__1_.png?w=360&q=75 "
+        <section class=" flex justify-center items-center text-center p-14 flex-col">
+            <img class="p-5" src=" https://images.ctfassets.net/19dvw6heztyg/4B48mQDjCWqC423nTmQbmd/e6671b91268f0fcd0e1bfcb792f20f1d/Stars__1_.png?w=360&q=75 "
                 alt="">
 
-            <h1> We didn't have to stress about technical details or custom coding. Using Podia made selling our first
+            <h1 class="text-xl font-serif"> We didn't have to stress about technical details or custom coding. Using Podia made selling our first
                 eBook quick, efficient, and fun.</h1>
 
-            <span>— Matt & Steph, Plant-based food bloggers</span>
+            <span  class=" text-lg text-slate-700 p-3 ">— Matt & Steph, Plant-based food bloggers</span>
         </section>
-        <section>
-            <div>
+        <section class="p-32 flex">
+            <div class=" w-[50%] h-full">
 
-                <span> Coaching </span>
+                <span class=" font-thin font-serif text-[#9c8881]"> Coaching </span>
 
-                <h1> One-on-one coaching and consultations, with billing managed for you </h1>
-                Sometimes your students want one-on-one attention. Podia makes it easy for you to charge for coaching
-                sessions and consultations.
+                <h1 class="  font-semibold  text-6xl p-3" > One-on-one coaching and consultations, with billing managed for you </h1>
+              <p class="p-3 font-light text-lg">  Sometimes your students want one-on-one attention. Podia makes it easy for you to charge for coaching
+                sessions and consultations.</p>
 
-                <a href="navigation.link"> Learn more about coaching →</a>
+                <a class="text-[#4b2aad]  p-4  hover:text-[#201445] font-serif text-base" href="navigation.link"> Learn more about coaching →</a>
 
 
             </div>
-            <div>
+            <div class=" flex justify-center items-center flex-col text-center h-full ">
                 <img src=" https://images.ctfassets.net/19dvw6heztyg/6MRIUMFs5dX9PKOjtzMXjf/9f5b01182904ffc6c4663dc2f442c3ba/digital_products-coaching.png?w=1440&q=75"
                     alt="">
 
             </div>
         </section>
-        <section>
+        <section class=" flex justify-center items-center text-center p-14 flex-col">
 
-            <img src="  https://images.ctfassets.net/19dvw6heztyg/4B48mQDjCWqC423nTmQbmd/e6671b91268f0fcd0e1bfcb792f20f1d/Stars__1_.png?w=360&q=75"
+            <img class="p-5"  src="  https://images.ctfassets.net/19dvw6heztyg/4B48mQDjCWqC423nTmQbmd/e6671b91268f0fcd0e1bfcb792f20f1d/Stars__1_.png?w=360&q=75"
                 alt="">
 
-            <h1> Podia just works. It's easy to use and includes everything you need to sell digital products. I've
+            <h1 class=" font-serif text-xl"> Podia just works. It's easy to use and includes everything you need to sell digital products. I've
                 tried all the alternatives, and Podia is hard to beat.</h1>
 
-            <span>— Shawn Leamon, Divorce and Your Money </span>
+            <span  class=" text-lg text-slate-700 p-3 ">— Shawn Leamon, Divorce and Your Money </span>
         </section>
-        <section>
-            <div>
+        <section class="p-24 flex lg:flex-row flex-col">
+            <div class=" h-full w-[50%]">
 
-                <span> Webinars</span>
+                <span class=" font-thin font-serif text-[#9c8881]"> Webinars</span>
 
-                <h1>Webinars and workshops with registration and payment in one place</h1>
-                <p> How can you charge for your webinars and workshops? Do it from your Podia site. Set up a paid
+                <h1  class="  font-semibold  text-6xl p-3">Webinars and workshops with registration and payment in one place</h1>
+                <p class="p-3 font-light text-lg"> How can you charge for your webinars and workshops? Do it from your Podia site. Set up a paid
                     webinar product and your customers can register straight from your website.</p>
 
-                <a href="navigation.link"> Learn more about webinars →</a>
+                <a class="text-[#4b2aad]  p-4  hover:text-[#201445] font-serif text-base" href="navigation.link"> Learn more about webinars →</a>
             </div>
 
-            <div>
+            <div class=" flex justify-center items-center flex-col text-center h-full ">
                 <img src=" https://images.ctfassets.net/19dvw6heztyg/5LepYwomTxpDT9PU2CoeHo/0aec7f94e534ac062df48c7e7f4c7f51/digital_products-webinars.png?w=1440&q=75"
                     alt="">
             </div>
         </section>
-        <section>
+        <section class=" flex gap-5 flex-col text-center   mx-[100px] mt-[140px] bg-[#201445] px-[80px] py-[70px] rounded-md">
 
-            <h1> Get your free Podia account</h1>
-            <p>
+            <h1 class="text-4xl font-bold text-white"> Get your free Podia account</h1>
+            <p class="text-xl text-white">
                 Join the 150,000+ creators who use Podia to create websites, sell digital products, and build online
                 communities.
 
             </p>
-            <button>Sign up free </button>
+            <button class="bg-[#9484c6] rounded-full lg:px-4 lg:py-3 hover:bg-[#4b2aad] text-lg text-white">Sign up free </button>
 
 
         </section>
@@ -230,8 +237,9 @@
 
 
         <div class="flex justify-end p-7">
-            <img class=" sticky w-[60px] "  src=" https://static.kindlycdn.com/media/chatbubble-images/b02b181fa0a64827af0df50b92383934.png" alt="">
-            </div>
+            <img class=" sticky w-[60px] "
+                src=" https://static.kindlycdn.com/media/chatbubble-images/b02b181fa0a64827af0df50b92383934.png" alt="">
+        </div>
 
 
     </main>
@@ -391,7 +399,7 @@
             <div class="px-[80px] pb-[90px] mt[-80px]">
                 <span class="text-lg">Podia Labs, Inc. © 2024 Terms Privacy</span>
             </div>
-           
+
         </footer>
 
 </body>
